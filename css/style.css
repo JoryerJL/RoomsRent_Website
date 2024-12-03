@@ -26,6 +26,11 @@
 .card img {
   height: 200px;
   object-fit: cover;
+  transition: filter 0.3s ease;
+}
+
+.card img:hover {
+  filter: brightness(70%);
 }
 
 .team-member {
