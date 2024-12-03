@@ -27,7 +27,7 @@
 1. Hacer un fork del repositorio.
    
 2. Crear una nueva rama para tus cambios:
-   
+    ```bash  
    git checkout -b nueva-funcionalidad
 
 3. Realizar tus modificaciones.
