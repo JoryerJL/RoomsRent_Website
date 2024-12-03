@@ -1,6 +1,10 @@
 # 🏠 HospedaT  
 
-**HospedaT** es una página web estática inspirada en plataformas como Airbnb, diseñada para ofrecer una interfaz sencilla e intuitiva para la búsqueda y renta de cuartos. Este proyecto está pensado para ser funcional, atractivo y fácilmente personalizable.  
+**HospedaT** es una página web estática inspirada en plataformas como Airbnb, diseñada para ofrecer una interfaz sencilla e intuitiva para la búsqueda y renta de cuartos. Este proyecto está pensado para ser funcional, atractivo y fácilmente personalizable. 
+
+## 🌍 Previsualización  
+Puedes ver una previsualización del proyecto aquí: [HospedaT en acción](https://joryerjl.github.io/RoomsRent_Website/)
+
 
 ## ✨ Características  
 - 🌐 **Página estática**: Sin necesidad de un backend, ideal para demostraciones o proyectos simples.  
