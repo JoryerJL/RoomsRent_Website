@@ -32,13 +32,32 @@
         </div>
       </div>
     </nav>
-
-    <header class="hero bg-light text-center py-5">
-      <div class="container">
-        <h1 class="display-4">Encuentra tu próximo destino</h1>
-        <p class="lead">Explora lugares únicos para quedarte y experiencias inolvidables.</p>
-      </div>
-    </header>
+    <header class="hero text-center py-5 position-relative">
+        <img src="./img/header.jpg" alt="Hero Image" class="hero-bg">
+        <div class="container position-relative">
+          <h1 class="display-4 text-white">Encuentra tu próximo destino</h1>
+          <p class="lead text-white">Explora lugares únicos para quedarte y experiencias inolvidables.</p>
+          <form class="search-form mt-4">
+            <div class="row g-2">
+              <div class="col-md-4">
+                <label for="lugar" class="form-label text-white">Lugar</label>
+                <input type="text" id="lugar" class="form-control" placeholder="Lugar">
+              </div>
+              <div class="col-md-3">
+                <label for="fecha-llegada" class="form-label text-white">Fecha de llegada</label>
+                <input type="date" id="fecha-llegada" class="form-control" placeholder="Fecha de llegada">
+              </div>
+              <div class="col-md-3">
+                <label for="fecha-salida" class="form-label text-white">Fecha de salida</label>
+                <input type="date" id="fecha-salida" class="form-control" placeholder="Fecha de salida">
+              </div>
+              <div class="col-md-2">
+                <button type="submit" class="btn btn-primary w-100 mt-4">Buscar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </header>
 
     <section class="container my-5">
       <div class="row">
